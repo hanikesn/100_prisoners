@@ -65,7 +65,7 @@ for($i = 0;$i < COUNT; $i++) {
     $best = test_strategy($drawer, 'prisoner_best');
     $count_best += $best;
     $hist_best[$best]++;
-    if($best == 100) {
+    if($best == NUM) {
         $count_100_best++;
     }
     $rnd = test_strategy($drawer, 'prisoner_rnd');
